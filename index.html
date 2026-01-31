@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -15,11 +15,62 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Pokedex</title>
-</head>
-<body>
-  <header></header>
-  <main></main>  
-  <footer></footer>
-  <script src="./js/bootstrap.min.js"></script>
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container">
+          <a class="navbar-brand text-white fw-bold" href="./index.html"
+            >Pokedex</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#botonHamburguesa"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="botonHamburguesa">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./pages/error404.html"
+                  >Categorias</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./pages/error404.html"
+                  >Videojuegos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./pages/error404.html"
+                  >Juego de cartas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./pages/error404.html"
+                  >Eventos</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                type="search"
+                class="form-control me-2"
+                placeholder="Buscar un pokemón"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
 </html>
