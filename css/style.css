@@ -41,3 +41,15 @@ main{
 .bg-bicho{
     background-color:rgb(106, 159, 0);
 }
+
+@media (width >= 768px){
+    .w-md-card{
+        width: 348px;
+    }
+}
+
+@media (width >= 992px){
+    .w-lg-card{
+        width: 312px;
+    }
+}
