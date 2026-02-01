@@ -13,9 +13,6 @@ main{
     object-fit: cover;
 }
 
-.w-card{
-    width: 350px;
-}
 
 .w-select{
     width: 170px;
@@ -27,4 +24,20 @@ main{
 
 .bg-planta{
     background-color:yellowgreen;
+}
+
+.bg-fuego{
+    background-color:orange;
+}
+
+.bg-volador{
+    background-color:rgb(71, 227, 251);
+}
+
+.bg-agua{
+    background-color:cornflowerblue;
+}
+
+.bg-bicho{
+    background-color:rgb(106, 159, 0);
 }
