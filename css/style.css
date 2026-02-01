@@ -53,3 +53,10 @@ main{
         width: 312px;
     }
 }
+
+.cajita-fixed{
+    width: 50px;
+    border-radius: 0px 7px 7px 0px;
+    position: fixed;
+    top: 406px;
+}
