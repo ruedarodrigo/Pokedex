@@ -7,3 +7,24 @@ body{
 main{
     flex-grow: 1;
 }
+
+.h-img{
+    height: 350px;
+    object-fit: cover;
+}
+
+.w-card{
+    width: 350px;
+}
+
+.w-select{
+    width: 170px;
+}
+
+.bg-veneno{
+    background-color: blueviolet;
+}
+
+.bg-planta{
+    background-color:yellowgreen;
+}
