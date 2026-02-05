@@ -42,12 +42,6 @@ main{
     background-color:rgb(106, 159, 0);
 }
 
-@media (width >= 768px){
-    .w-md-card{
-        width: 348px;
-    }
-}
-
 .cajita-fixed{
     width: 50px;
     border-radius: 0px 7px 7px 0px;
@@ -56,9 +50,6 @@ main{
 }
 
 @media (width >= 992px){
-    .w-lg-card{
-        width: 312px;
-    }
     .cajita-fixed{
     width: 60px;
 }
